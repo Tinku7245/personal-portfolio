@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    background: #88d6fe;
+
+
+
+    
+}
+.sidebar{
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    background: #88d6fe;
+}
+.headName{
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+}
+nav{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 1rem;
+    
+
+
+}
+
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+    padding: 0.6rem 2rem;
+    border-radius: 20px;
+   
+    
+}
+.active{
+    background: #6595ae;
+    color: white;
+}
+
+.sidebar nav li a:hover{
+    background: #6595ae;
+    color: white;
+}
+
+
+
+
+ .main{
+    
+    display: flex;
+    margin: 1rem;
+    padding: 2rem;
+    flex-direction: column;
+    
+
+    
+ }
+
+ .cards1{
+    display: flex;
+    
+   justify-content: space-between;
+    margin: 0 9rem;
+ }
+ .card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background: #6595ae; */
+    padding: 0.7rem;
+    height: 10rem;
+    width: 10rem;
+    background: white;
+
+ }
+
+ .card p{
+    font-size: small;
+ }
+ .card h3{
+    margin-bottom: 0.5rem;
+ }
+ .moveUP{
+    margin-top: -1rem;
+ }
+ .bord{
+    
+    border: 2px solid black;
+    padding: 0.2rem;
+    margin: 2rem 7rem;
+    border-radius: 10px;
+ }
+ .moveDown{
+    margin-top: 1rem;
+ }
+ 
